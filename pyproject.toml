@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "qa_guru_python_mobile_tests_19"
+version = "0.1.0"
+description = ""
+authors = ["Helpmerunaway <solovyovri@yandex.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selene = {version = "^2.0.0-beta.8", allow-prereleases = true}
+Appium-Python-Client = "^2.6.1"
+pytest = "^7.1.3"
+pytest-xdist = "^2.5.0"
+allure-pytest = "^2.10.0"
+requests = "^2.28.1"
+pydantic = "^1.10.2"
+python-dotenv = "^0.21.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
